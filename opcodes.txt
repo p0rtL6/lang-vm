@@ -1,0 +1,11 @@
+[OPCODES]
+0 > Halt (HLT) {}
+1 > Load (LOAD) {address: u8, value: u16}
+2 > Add (ADD) {first number address: u8, second number address: u8, output address: u8}
+3 > Subtract (SUB) {first number address: u8, second number address: u8, output address: u8}
+4 > Multiply (MUL) {first number address: u8, second number address: u8, output address: u8}
+5 > Divide (DIV) {first number address: u8, second number address: u8, output address: u8}
+6 > Jump (JMP) {address: u8}
+7 > Jump Forward (JMPF) {address: u8}
+8 > Jump Backward (JMPB) {address: u8}
+_ > 
