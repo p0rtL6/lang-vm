@@ -1,0 +1,10 @@
+LOAD $3 #4
+LOAD $1 #5
+LOAD $2 #10
+LOAD $0 #0
+DEC $1
+GT $1 $4
+ADD $2 $0 $0
+JEQ $3
+LOAD $3 #0
+LOAD $2 #0
